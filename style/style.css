@@ -1,0 +1,92 @@
+.header-container,
+.footer-container {
+    background-color: darkgrey;
+}
+
+.header-container {
+    text-align: center;
+    height: 10vh;
+    padding-top: 1%;
+}
+
+.header-container h1 {
+    margin: auto;
+}
+
+.main-conteiner {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 40vh;
+}
+
+.footer-container {
+    background-color: darkgray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 12vh;
+    justify-items: center;
+}
+
+
+
+.main-block {
+    background-color: burlywood;
+}
+
+.main-block h3 {
+    text-align: center;
+    padding: 2%;
+}
+
+.still {
+    display: grid;
+    width: 98%;
+    height: 20vh;
+    grid-template-areas: "one one two two"
+        "three three three three";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-around;
+    grid-gap: 1%;
+    margin: 1%;
+}
+
+.one {
+    grid-area: one;
+    background-color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    padding-top: 2%;
+}
+
+.two {
+    background-color: aliceblue;
+    text-align: center;
+    grid-area: two;
+    width: 100%;
+    height: 5vh;
+    padding-top: 2%;
+}
+
+.three {
+    background-color: aliceblue;
+    text-align: center;
+    grid-area: three;
+    width: 100%;
+    height: 5vh;
+    padding-top: 2%;
+}
+
+.aside-block {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.footer-container p {
+    background-color: aliceblue;
+    width: 70%;
+    height: 3vh;
+    text-align: center;
+    padding: 5%;
+}
